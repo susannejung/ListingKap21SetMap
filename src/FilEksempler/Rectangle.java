@@ -23,7 +23,7 @@ public class Rectangle extends GeometricObject {
         return "Rectangle{" +
                 "width=" + width +
                 ", height=" + height +
-                ", colour= " + getColor() +
+                ", colour= " + super.getColor() +
                 ", perimeter= " + getPerimeter() +
                 ", area= " + getArea() +
                 '}';

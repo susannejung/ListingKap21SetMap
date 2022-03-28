@@ -8,7 +8,7 @@ public class Circle extends GeometricObject {
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +
-                ", colour= " + getColor() +
+                ", colour= " + super.getColor() +
                 ", perimeter= " + getPerimeter() +
                 ", area= " + getArea() +
                 '}';
@@ -48,7 +48,7 @@ public class Circle extends GeometricObject {
 
     /* Print the circle info */
     public void printCircle() {
-        System.out.println("The circle is created " + getDateCreated() +
+        System.out.println("The circle is created " + super.getDateCreated() +
                 " and the radius is " + radius);
     }
 }

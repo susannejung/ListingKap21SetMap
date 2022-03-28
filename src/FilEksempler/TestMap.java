@@ -38,5 +38,9 @@ public class TestMap {
         System.out.print("\nNames and ages are ");
         treeMap.forEach(
                 (name, age) -> System.out.print(name + ": " + age + " "));
+
+        System.out.print("\nNames and ages are ");
+        hashMap.forEach(
+                (name, age) -> System.out.print(name + ": " + age + " "));
     }
 }
